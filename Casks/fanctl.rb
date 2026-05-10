@@ -1,6 +1,6 @@
 cask "fanctl" do
-  version "1.2.0"
-  sha256 "55fd3a9ad1c23e250e422bb408c965a3379893425b598012322265e663800077"
+  version "1.4.0"
+  sha256 "8bc0fd94455e6baf379d4313c0835fd899e67f5046cc9934fd34a86f54a6cddc"
 
   url      "https://github.com/Juanipis/fanctl/releases/download/v#{version}/FanCtl-#{version}.zip"
   name     "FanCtl"
@@ -27,13 +27,13 @@ cask "fanctl" do
                    sudo: false
   end
 
-  uninstall quit:      "com.jpdiaz.FanCtl",
-            launchctl: "com.jpdiaz.FanCtl.Helper"
+  uninstall quit:      "com.juanipis.FanCtl",
+            launchctl: "com.juanipis.FanCtl.Helper"
 
   zap trash: [
-    "~/Library/Caches/com.jpdiaz.FanCtl",
-    "~/Library/Preferences/com.jpdiaz.FanCtl.plist",
-    "~/Library/Saved Application State/com.jpdiaz.FanCtl.savedState",
+    "~/Library/Caches/com.juanipis.FanCtl",
+    "~/Library/Preferences/com.juanipis.FanCtl.plist",
+    "~/Library/Saved Application State/com.juanipis.FanCtl.savedState",
   ]
 
   caveats <<~EOS
