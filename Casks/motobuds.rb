@@ -1,6 +1,6 @@
 cask "motobuds" do
-  version "1.3.2"
-  sha256 "e3d2bf8f2c917517350ce211d0aacdc2134239f4f8c005b4d5142469c52ad2ad"
+  version "1.3.3"
+  sha256 "6dfe7023441701788a212b3a707bb7a0f8ff7cd1ef698f2aec80d0de23b02b19"
 
   url      "https://github.com/Juanipis/motobuds/releases/download/v#{version}/MotoBuds-#{version}.zip"
   name     "MotoBuds"
