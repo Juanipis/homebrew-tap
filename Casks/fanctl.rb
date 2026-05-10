@@ -1,6 +1,6 @@
 cask "fanctl" do
-  version "1.6.0"
-  sha256 "a78e322b084f8240042bc8efcb9a36cfb4e1d90a5478d9ccdcc663e79d4aec29"
+  version "1.7.0"
+  sha256 "fbc1365cb76d20e1d353d4c77947bd04706a77b47725dde7ccb09a3803e5ffd5"
 
   url      "https://github.com/Juanipis/fanctl/releases/download/v#{version}/FanCtl-#{version}.zip"
   name     "FanCtl"
